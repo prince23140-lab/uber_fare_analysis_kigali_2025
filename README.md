@@ -53,10 +53,28 @@ The aim of this project was to analyze the **Uber Fares Dataset** to derive insi
 - Computed mean, median, mode, standard deviation, range, and quartiles  
 - Identified outliers using visualizations (box plots and scatter plots)
 
-### 📈 Visuals Created:
-- Fare Amount vs. Distance (Scatter plot)  
-- Fare Distribution (Histogram)  
-- Correlation heatmap of numerical features
+### 📊 Key Visualizations
+
+## Fare Distribution Analysis
+![fare amount distribution](https://github.com/user-attachments/assets/76cc3050-3fc6-4202-a3b7-7fba221e8149)
+
+*Most fares cluster between $5-$25 with long-tail distribution*
+
+Distance vs. Fare Relationship
+![fare amount vs distance](https://github.com/user-attachments/assets/3e336277-330c-4cb5-9283-cbc8f9c6e13a)
+
+Strong positive correlation with notable outliers beyond 20km
+
+Passenger Load Patterns
+![passenger_ count](https://github.com/user-attachments/assets/0a04ce9d-dca9-415e-b8f0-410b11e5c355)
+
+*92% of rides serve 1-2 passengers, with minimal 5+ passenger trips*
+
+Feature Correlations
+![correlation matrix](https://github.com/user-attachments/assets/3c526c49-490f-4d2b-9a66-25e34acefcc8)
+
+Key insights: Distance strongly impacts fare, passenger count has minimal effect
+
 
 
 ## 🛠️ 3. Feature Engineering
@@ -64,7 +82,12 @@ The aim of this project was to analyze the **Uber Fares Dataset** to derive insi
 - Extracted new time-based features:
   - `pickup_hour`, `pickup_day`, `pickup_month`, `pickup_date`  
 - Created distance using Haversine formula
-  
+  # Haversine distance calculation
+    def haversine(lat1, lon1, lat2, lon2):
+        # Implementation here
+        return distance_km
+    
+    df['distance_km'] = df.apply(lambda x: haversine(...), axis=1)
 - Saved enhanced dataset to `enhanced_uber_fares.csv` for Power BI
 
 
