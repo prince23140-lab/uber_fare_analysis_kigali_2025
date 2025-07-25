@@ -83,36 +83,6 @@ Key insights: Distance strongly impacts fare, passenger count has minimal effect
   - `pickup_hour`, `pickup_day`, `pickup_month`, `pickup_date`  
 - Created distance using Haversine formula
   # Haversine distance calculation
- ` ```python
-from numpy import radians, sin, cos, sqrt, arctan2
-
-# Haversine Formula to calculate distance
-def haversine(lat1, lon1, lat2, lon2):
-    R = 6371  # Earth radius in km
-    lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
-    dlat = lat2 - lat1
-    dlon = lon2 - lon1
-
-    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
-    c = 2 * arctan2(sqrt(a), sqrt(1-a))
-    return R * c
-
-# Create new column for distance
-df['distance_km'] = haversine(
-    df['pickup_latitude'], df['pickup_longitude'],
-    df['dropoff_latitude'], df['dropoff_longitude']
-)
-
-# Scatter Plot: Fare vs Distance
-plt.figure(figsize=(10, 5))
-sns.scatterplot(x='distance_km', y='fare_amount', data=df, alpha=0.5)
-plt.title('Fare Amount vs. Distance')
-plt.xlabel('Distance (km)')
-plt.ylabel('Fare Amount')
-plt.xlim(0, 30)
-plt.ylim(0, 100)
-plt.show()
-` ```
 
 
 - Saved enhanced dataset to `enhanced_uber_fares.csv` for Power BI
