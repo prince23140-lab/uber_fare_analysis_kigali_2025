@@ -165,7 +165,7 @@ This project aims to uncover hidden patterns in Uber’s NYC fare data and build
 
 ## 📂 Deliverables
 
-- ✅ Power BI Dashboard File: `Uber fares dashboard.pbix`  
+- ✅ Power BI Dashboard File: `Uber_fares_dashboard.pbix`  
 - ✅ Cleaned Dataset: `cleaned_uber_fares.csv`   
 - ✅ Python Notebook: `Uber.ipynb`  
 - ✅ README File (This document)
