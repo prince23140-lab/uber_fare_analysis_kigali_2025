@@ -112,7 +112,7 @@ plt.ylabel('Fare Amount')
 plt.xlim(0, 30)
 plt.ylim(0, 100)
 plt.show()
-
+```
 
 - Saved enhanced dataset to `enhanced_uber_fares.csv` for Power BI
 
