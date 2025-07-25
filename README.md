@@ -66,6 +66,7 @@ Distance vs. Fare Relationship
 Strong positive correlation with notable outliers beyond 20km
 
 Passenger Load Patterns
+
 ![passenger_ count](https://github.com/user-attachments/assets/0a04ce9d-dca9-415e-b8f0-410b11e5c355)
 
 *92% of rides serve 1-2 passengers, with minimal 5+ passenger trips*
@@ -83,6 +84,7 @@ Key insights: Distance strongly impacts fare, passenger count has minimal effect
   - `pickup_hour`, `pickup_day`, `pickup_month`, `pickup_date`  
 - Created distance using Haversine formula
   # Haversine distance calculation
+  ![hav](https://github.com/user-attachments/assets/10c7d929-2519-4c38-b0a2-a21e8e8531c4)
 
 
 - Saved enhanced dataset to `enhanced_uber_fares.csv` for Power BI
