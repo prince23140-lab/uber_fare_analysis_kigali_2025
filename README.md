@@ -118,10 +118,23 @@ Key insights: Distance strongly impacts fare, passenger count has minimal effect
   
 <img width="1871" height="889" alt="Loaded data" src="https://github.com/user-attachments/assets/6dffda67-8a0a-4086-9dea-c447c45d5950" />
 
-- Dashboard Visuals (fare trends, maps, etc.)
+- #### Dashboard Visuals (fare trends, maps, etc.)
+- 
+- ### Fare amount Trends
+  ![PowerBI Dashboard 1](https://github.com/user-attachments/assets/862ce4d5-1b90-4e09-b91f-0812c32b65bd)
 
-![powerBI Dashboard](https://github.com/user-attachments/assets/4707b350-b07e-4747-b6d4-2d26a4b72b5b)
 
+### Fare Amount Trends (Weekdays/ WeekEnds) And over the Years
+![PowerBI Dashboard 2](https://github.com/user-attachments/assets/1eb5ed03-aef5-4416-8930-b1890029b75a)
+
+ Busiest Hours are between  12 pm - 13 pm and 18 pm - 19 pm,  19 pm being the busiest.
+
+Busiest days are between Wednesday and Friday, Thursday being the busiest.
+
+Busiest Months are between March and May, May being the busiest.
+
+### Monthly and Annual Ride Trends
+![PowerBI Dashboard 3](https://github.com/user-attachments/assets/66c4908d-fa97-4ba3-8672-49822cad4e0b)
 
 ## 📑 6. Analytical Report
 
