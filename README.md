@@ -136,6 +136,10 @@ Busiest Months are between March and May, May being the busiest.
 ### Monthly and Annual Ride Trends
 ![PowerBI Dashboard 3](https://github.com/user-attachments/assets/66c4908d-fa97-4ba3-8672-49822cad4e0b)
 
+### Dropoff Latitude and Fare Amount
+![PowerBI Dashboard 4](https://github.com/user-attachments/assets/959eb30b-5c0b-48b2-b95d-23572cdc2371)
+
+
 ## 📑 6. Analytical Report
 
 ### 🧾 Introduction
@@ -161,7 +165,7 @@ This project aims to uncover hidden patterns in Uber’s NYC fare data and build
 
 ## 📂 Deliverables
 
-- ✅ Power BI Dashboard File: `powerBI dashboard.pbix`  
+- ✅ Power BI Dashboard File: `Uber fares dashboard.pbix`  
 - ✅ Cleaned Dataset: `cleaned_uber_fares.csv`   
 - ✅ Python Notebook: `Uber.ipynb`  
 - ✅ README File (This document)
